@@ -65,6 +65,8 @@ def get_data(baseurl: str, indices: list):
     tables = soup.find_all("table")
     summary = tables[2].find_all("tr")
 
+    print(len(summary))
+
     precincts_counted = tables[3]
     reported = dict()
     precincts = precincts_counted.find_all("tr")
@@ -112,8 +114,8 @@ def get_data(baseurl: str, indices: list):
 
 
 def main():
-    url = "https://electionresults.ewashtenaw.org/electionreporting/aug2021"
-    data = get_data(url, [2, 3, 4, 5])
+    url = "https://electionresults.ewashtenaw.org/electionreporting/nov2020"
+    data = get_data(url, [325, 326, 327])
     with open("data.json", "w") as f:
         dump(data, f, indent=2)
 

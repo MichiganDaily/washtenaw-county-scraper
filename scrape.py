@@ -22,12 +22,17 @@ def get_canvass_report(url: str):
 
     data = list()
 
+    total_precincts = 0.0
+
     for precinct in precincts:
         datum = precinct.find_all("td")
+        num_precincts = 2 if "&" in datum[0].text else 1
+        total_precincts += num_precincts
         data.append({
             "Precinct": datum[0].text,
             "Yes": num(datum[1].text.strip()),
-            "No": num(datum[2].text.strip())
+            "No": num(datum[2].text.strip()),
+            "num_precincts": num_precincts
         })
 
     return {
@@ -37,10 +42,11 @@ def get_canvass_report(url: str):
             "registered_voters": num(head[1].text),
             "ballots_cast": num(head[3].text),
             "voter_turnout": num(head[5].text),
-            "total_precincts": num(head[7].text),
-            "full_count_precincts": num(head[9].text),
-            "full_count_precincts_percent": num(head[11].text),
-            "partial_count_precincts": num(head[15].text)
+            "total_precincts": total_precincts,
+            # "total_precincts": num(head[7].text),
+            # "full_count_precincts": num(head[9].text),
+            # "full_count_precincts_percent": num(head[11].text),
+            # "partial_count_precincts": num(head[15].text)
         },
         "data": data
     }
@@ -59,13 +65,15 @@ def get_summary_row(row):
 
 
 def get_data(baseurl: str, indices: list):
+    NOT_COUNTED = "not-counted"
+    PARTIALLY_COUNTED = "partially-counted"
+    FULLY_COUNTED = "fully-counted"
+
     html = requests.get(f"{baseurl}/index.jsp").text
     soup = BeautifulSoup(html, "html.parser")
 
     tables = soup.find_all("table")
     summary = tables[2].find_all("tr")
-
-    print(len(summary))
 
     precincts_counted = tables[3]
     reported = dict()
@@ -75,11 +83,11 @@ def get_data(baseurl: str, indices: list):
         text = precinct.find("td").text.strip()
         pclass = precinct.find("td")["class"]
         if "red" in pclass:
-            reported[text] = "not-counted"
+            reported[text] = NOT_COUNTED
         elif "blue" in pclass:
-            reported[text] = "partially-counted"
+            reported[text] = PARTIALLY_COUNTED
         else:
-            reported[text] = "fully-counted"
+            reported[text] = FULLY_COUNTED
 
     data = list()
 
@@ -95,8 +103,20 @@ def get_data(baseurl: str, indices: list):
         no = get_summary_row(summary[index * 3 + 3].contents)
 
         report = get_canvass_report(canvass)
+
+        full_count_precincts: float = 0.0
+        partial_count_precincts: float = 0.0
         for i in range(len(report["data"])):
-            report["data"][i]["counted"] = reported[report["data"][i]["Precinct"]]
+            count = reported[report["data"][i]["Precinct"]]
+            report["data"][i]["counted"] = count
+            if count == FULLY_COUNTED:
+                full_count_precincts += 1
+            elif count == PARTIALLY_COUNTED:
+                partial_count_precincts += 1
+
+        report["meta"]["full_count_precincts"] = full_count_precincts
+        report["meta"]["full_count_precincts_percent"] = (full_count_precincts / report["meta"]["total_precincts"]) * 100
+        report["meta"]["partial_count_precincts"] = partial_count_precincts
 
         data.append({
             "name": name,

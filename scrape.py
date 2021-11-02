@@ -123,6 +123,8 @@ def get_data(baseurl: str, indices: list):
             "report": report
         })
 
+    data[-1]["name"] = "Ann Arbor Prop D $25,000 Limit"
+
     return {
         "meta": {
             "title": soup.find("font", attrs={"class", "h2"}).text,

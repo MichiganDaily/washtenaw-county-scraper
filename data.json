@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "November 2, 2021 Election TEST",
-    "time": "Monday, Oct 25, 2021 03:57:10 PM"
+    "title": "November 2, 2021 Election",
+    "time": "Monday, Nov 01, 2021 12:11:48 PM"
   },
   "data": [
     {
@@ -27,8 +27,8 @@
       "report": {
         "meta": {
           "title": "Ann Arbor Prop A Purchasing",
-          "time": "Monday, Oct 25, 2021 03:57:11 PM",
-          "registered_voters": 0.0,
+          "time": "Monday, Nov 01, 2021 12:11:49 PM",
+          "registered_voters": 110386.0,
           "ballots_cast": 0.0,
           "voter_turnout": 0.0,
           "total_precincts": 53.0,
@@ -291,8 +291,8 @@
       "report": {
         "meta": {
           "title": "Ann Arbor Prop B Ranked Choice Voting",
-          "time": "Monday, Oct 25, 2021 03:57:11 PM",
-          "registered_voters": 0.0,
+          "time": "Monday, Nov 01, 2021 12:11:49 PM",
+          "registered_voters": 110386.0,
           "ballots_cast": 0.0,
           "voter_turnout": 0.0,
           "total_precincts": 53.0,
@@ -555,8 +555,8 @@
       "report": {
         "meta": {
           "title": "Ann Arbor Prop C Emergency Procurement",
-          "time": "Monday, Oct 25, 2021 03:57:11 PM",
-          "registered_voters": 0.0,
+          "time": "Monday, Nov 01, 2021 12:11:49 PM",
+          "registered_voters": 110386.0,
           "ballots_cast": 0.0,
           "voter_turnout": 0.0,
           "total_precincts": 53.0,
@@ -819,8 +819,8 @@
       "report": {
         "meta": {
           "title": "Ann Arbor Prop D $25000 Limit",
-          "time": "Monday, Oct 25, 2021 03:57:11 PM",
-          "registered_voters": 0.0,
+          "time": "Monday, Nov 01, 2021 12:11:49 PM",
+          "registered_voters": 110386.0,
           "ballots_cast": 0.0,
           "voter_turnout": 0.0,
           "total_precincts": 53.0,

@@ -1,13 +1,15 @@
 import requests
 from bs4 import BeautifulSoup
 from json import dump
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 
 def num(n: str):
     return float(n.replace(",", "").replace("%", ""))
 
 
-def get_canvass_report(url: str):
+def get_canvass_report(url: str, time: str):
     html = requests.get(url).text
     soup = BeautifulSoup(html, "html.parser")
 
@@ -36,7 +38,8 @@ def get_canvass_report(url: str):
     return {
         "meta": {
             "title": soup.find("font", attrs={"class", "h2"}).text,
-            "time": soup.find("font", attrs={"class": "h4"}).text[21:],
+            # "time": soup.find("font", attrs={"class": "h4"}).text[21:],
+            "time": time,
             "registered_voters": num(head[1].text),
             "ballots_cast": num(head[3].text),
             "voter_turnout": num(head[5].text),
@@ -62,7 +65,7 @@ def get_summary_row(row):
     }
 
 
-def get_data(baseurl: str, indices: list):
+def get_data(baseurl: str, time: str, indices: list):
     NOT_COUNTED = "not-counted"
     PARTIALLY_COUNTED = "partially-counted"
     FULLY_COUNTED = "fully-counted"
@@ -100,7 +103,7 @@ def get_data(baseurl: str, indices: list):
         yes = get_summary_row(summary[index * 3 + 2].contents)
         no = get_summary_row(summary[index * 3 + 3].contents)
 
-        report = get_canvass_report(canvass)
+        report = get_canvass_report(canvass, time)
 
         full_count_precincts: float = 0.0
         partial_count_precincts: float = 0.0
@@ -128,15 +131,18 @@ def get_data(baseurl: str, indices: list):
     return {
         "meta": {
             "title": soup.find("font", attrs={"class", "h2"}).text,
-            "time": soup.find("font", attrs={"class": "h4"}).text[21:]
+            # "time": soup.find("font", attrs={"class": "h4"}).text[21:]
+            "time": time
         },
         "data": data
     }
 
 
 def main():
+    east = ZoneInfo("America/New_York")
+    time = datetime.now(tz=east).strftime("%A, %b %d, %Y %I:%M:%S %p")
     url = "https://electionresults.ewashtenaw.org/electionreporting/nov2021"
-    data = get_data(url, [13, 14, 15, 16])
+    data = get_data(url, time, [13, 14, 15, 16])
     with open("data.json", "w") as f:
         dump(data, f, indent=2)
 

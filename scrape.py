@@ -26,13 +26,11 @@ def get_canvass_report(url: str):
 
     for precinct in precincts:
         datum = precinct.find_all("td")
-        num_precincts = 2 if "&" in datum[0].text else 1
-        total_precincts += num_precincts
+        total_precincts += 2 if "&" in datum[0].text else 1
         data.append({
             "Precinct": datum[0].text,
             "Yes": num(datum[1].text.strip()),
-            "No": num(datum[2].text.strip()),
-            "num_precincts": num_precincts
+            "No": num(datum[2].text.strip())
         })
 
     return {
@@ -115,7 +113,8 @@ def get_data(baseurl: str, indices: list):
                 partial_count_precincts += 1
 
         report["meta"]["full_count_precincts"] = full_count_precincts
-        report["meta"]["full_count_precincts_percent"] = (full_count_precincts / report["meta"]["total_precincts"]) * 100
+        report["meta"]["full_count_precincts_percent"] = full_count_precincts / \
+            report["meta"]["total_precincts"] * 100
         report["meta"]["partial_count_precincts"] = partial_count_precincts
 
         data.append({
@@ -134,8 +133,8 @@ def get_data(baseurl: str, indices: list):
 
 
 def main():
-    url = "https://electionresults.ewashtenaw.org/electionreporting/nov2020"
-    data = get_data(url, [325, 326, 327])
+    url = "https://electionresults.ewashtenaw.org/electionreporting/nov2021"
+    data = get_data(url, [13, 14, 15, 16])
     with open("data.json", "w") as f:
         dump(data, f, indent=2)
 

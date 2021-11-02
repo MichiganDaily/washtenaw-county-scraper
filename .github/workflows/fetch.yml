@@ -1,0 +1,31 @@
+name: Fetch election data
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+
+jobs:
+  fetch:
+    name: Fetch election data
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: github-actions
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.9.6"
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+    - name: Run scraper.py
+      run: python scrape.py
+    - name: Push data to GitHub
+      run: |
+        git add ./data.json
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        timestamp=$(date -u)
+        git commit -m "🗂 Fetch election data at ${timestamp}" || exit 0
+        git push

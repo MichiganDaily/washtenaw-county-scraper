@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "November 2, 2021 Election",
-    "time": "Tuesday, Nov 02, 2021 10:29:03 PM"
+    "time": "Tuesday, Nov 02, 2021 10:42:51 PM"
   },
   "data": [
     {
@@ -10,31 +10,31 @@
         {
           "label": "Yes",
           "call": true,
-          "in_precinct_votes": 4803.0,
+          "in_precinct_votes": 5208.0,
           "absentee_votes": 0.0,
-          "total_votes": 4803.0,
-          "percent_votes": 77.95
+          "total_votes": 5208.0,
+          "percent_votes": 78.03
         },
         {
           "label": "No",
           "call": false,
-          "in_precinct_votes": 1359.0,
+          "in_precinct_votes": 1466.0,
           "absentee_votes": 0.0,
-          "total_votes": 1359.0,
-          "percent_votes": 22.05
+          "total_votes": 1466.0,
+          "percent_votes": 21.97
         }
       ],
       "report": {
         "meta": {
           "title": "Ann Arbor Prop A Purchasing",
-          "time": "Tuesday, Nov 02, 2021 10:29:03 PM",
+          "time": "Tuesday, Nov 02, 2021 10:42:51 PM",
           "registered_voters": 110386.0,
-          "ballots_cast": 6213.0,
-          "voter_turnout": 5.63,
+          "ballots_cast": 6726.0,
+          "voter_turnout": 6.09,
           "total_precincts": 53.0,
           "full_count_precincts": 0.0,
           "full_count_precincts_percent": 0.0,
-          "partial_count_precincts": 35.0
+          "partial_count_precincts": 38.0
         },
         "data": [
           {
@@ -51,15 +51,15 @@
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 4",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 42.0,
+            "No": 16.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Pcts 5 & 6",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 168.0,
+            "No": 48.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 7",
@@ -249,9 +249,9 @@
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 9",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 195.0,
+            "No": 43.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 10",
@@ -274,31 +274,31 @@
         {
           "label": "Yes",
           "call": true,
-          "in_precinct_votes": 4745.0,
+          "in_precinct_votes": 5158.0,
           "absentee_votes": 0.0,
-          "total_votes": 4745.0,
-          "percent_votes": 76.64
+          "total_votes": 5158.0,
+          "percent_votes": 76.99
         },
         {
           "label": "No",
           "call": false,
-          "in_precinct_votes": 1446.0,
+          "in_precinct_votes": 1542.0,
           "absentee_votes": 0.0,
-          "total_votes": 1446.0,
-          "percent_votes": 23.36
+          "total_votes": 1542.0,
+          "percent_votes": 23.01
         }
       ],
       "report": {
         "meta": {
           "title": "Ann Arbor Prop B Ranked Choice Voting",
-          "time": "Tuesday, Nov 02, 2021 10:29:03 PM",
+          "time": "Tuesday, Nov 02, 2021 10:42:51 PM",
           "registered_voters": 110386.0,
-          "ballots_cast": 6213.0,
-          "voter_turnout": 5.63,
+          "ballots_cast": 6726.0,
+          "voter_turnout": 6.09,
           "total_precincts": 53.0,
           "full_count_precincts": 0.0,
           "full_count_precincts_percent": 0.0,
-          "partial_count_precincts": 35.0
+          "partial_count_precincts": 38.0
         },
         "data": [
           {
@@ -315,15 +315,15 @@
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 4",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 44.0,
+            "No": 12.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Pcts 5 & 6",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 171.0,
+            "No": 44.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 7",
@@ -513,9 +513,9 @@
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 9",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 198.0,
+            "No": 40.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 10",
@@ -538,31 +538,31 @@
         {
           "label": "Yes",
           "call": true,
-          "in_precinct_votes": 4782.0,
+          "in_precinct_votes": 5188.0,
           "absentee_votes": 0.0,
-          "total_votes": 4782.0,
-          "percent_votes": 78.75
+          "total_votes": 5188.0,
+          "percent_votes": 78.9
         },
         {
           "label": "No",
           "call": false,
-          "in_precinct_votes": 1290.0,
+          "in_precinct_votes": 1387.0,
           "absentee_votes": 0.0,
-          "total_votes": 1290.0,
-          "percent_votes": 21.25
+          "total_votes": 1387.0,
+          "percent_votes": 21.1
         }
       ],
       "report": {
         "meta": {
           "title": "Ann Arbor Prop C Emergency Procurement",
-          "time": "Tuesday, Nov 02, 2021 10:29:03 PM",
+          "time": "Tuesday, Nov 02, 2021 10:42:51 PM",
           "registered_voters": 110386.0,
-          "ballots_cast": 6213.0,
-          "voter_turnout": 5.63,
+          "ballots_cast": 6726.0,
+          "voter_turnout": 6.09,
           "total_precincts": 53.0,
           "full_count_precincts": 0.0,
           "full_count_precincts_percent": 0.0,
-          "partial_count_precincts": 35.0
+          "partial_count_precincts": 38.0
         },
         "data": [
           {
@@ -579,15 +579,15 @@
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 4",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 46.0,
+            "No": 9.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Pcts 5 & 6",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 179.0,
+            "No": 36.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 7",
@@ -777,9 +777,9 @@
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 9",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 181.0,
+            "No": 52.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 10",
@@ -802,31 +802,31 @@
         {
           "label": "Yes",
           "call": true,
-          "in_precinct_votes": 4164.0,
+          "in_precinct_votes": 4526.0,
           "absentee_votes": 0.0,
-          "total_votes": 4164.0,
-          "percent_votes": 68.58
+          "total_votes": 4526.0,
+          "percent_votes": 68.85
         },
         {
           "label": "No",
           "call": false,
-          "in_precinct_votes": 1908.0,
+          "in_precinct_votes": 2048.0,
           "absentee_votes": 0.0,
-          "total_votes": 1908.0,
-          "percent_votes": 31.42
+          "total_votes": 2048.0,
+          "percent_votes": 31.15
         }
       ],
       "report": {
         "meta": {
           "title": "Ann Arbor Prop D $25000 Limit",
-          "time": "Tuesday, Nov 02, 2021 10:29:03 PM",
+          "time": "Tuesday, Nov 02, 2021 10:42:51 PM",
           "registered_voters": 110386.0,
-          "ballots_cast": 6213.0,
-          "voter_turnout": 5.63,
+          "ballots_cast": 6726.0,
+          "voter_turnout": 6.09,
           "total_precincts": 53.0,
           "full_count_precincts": 0.0,
           "full_count_precincts_percent": 0.0,
-          "partial_count_precincts": 35.0
+          "partial_count_precincts": 38.0
         },
         "data": [
           {
@@ -843,15 +843,15 @@
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 4",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 42.0,
+            "No": 14.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Pcts 5 & 6",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 151.0,
+            "No": 63.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 7",
@@ -1041,9 +1041,9 @@
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 9",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 169.0,
+            "No": 63.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 10",

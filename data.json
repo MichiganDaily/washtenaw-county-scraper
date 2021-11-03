@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "November 2, 2021 Election",
-    "time": "Tuesday, Nov 02, 2021 08:26:23 PM"
+    "time": "Tuesday, Nov 02, 2021 08:32:18 PM"
   },
   "data": [
     {
@@ -10,44 +10,44 @@
         {
           "label": "Yes",
           "call": true,
-          "in_precinct_votes": 3112.0,
+          "in_precinct_votes": 4479.0,
           "absentee_votes": 0.0,
-          "total_votes": 3112.0,
-          "percent_votes": 77.32
+          "total_votes": 4479.0,
+          "percent_votes": 77.56
         },
         {
           "label": "No",
           "call": false,
-          "in_precinct_votes": 913.0,
+          "in_precinct_votes": 1296.0,
           "absentee_votes": 0.0,
-          "total_votes": 913.0,
-          "percent_votes": 22.68
+          "total_votes": 1296.0,
+          "percent_votes": 22.44
         }
       ],
       "report": {
         "meta": {
           "title": "Ann Arbor Prop A Purchasing",
-          "time": "Tuesday, Nov 02, 2021 08:26:23 PM",
+          "time": "Tuesday, Nov 02, 2021 08:32:18 PM",
           "registered_voters": 110386.0,
-          "ballots_cast": 4065.0,
-          "voter_turnout": 3.68,
+          "ballots_cast": 5825.0,
+          "voter_turnout": 5.28,
           "total_precincts": 53.0,
-          "full_count_precincts": 24.0,
-          "full_count_precincts_percent": 45.28301886792453,
-          "partial_count_precincts": 0.0
+          "full_count_precincts": 0.0,
+          "full_count_precincts_percent": 0.0,
+          "partial_count_precincts": 34.0
         },
         "data": [
           {
             "Precinct": "City of Ann Arbor, Ward 1, Pcts 1 & 12",
             "Yes": 27.0,
             "No": 2.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Pcts 2 & 3",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 90.0,
+            "No": 17.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 4",
@@ -65,169 +65,169 @@
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 7",
             "Yes": 21.0,
             "No": 5.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 8",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 150.0,
+            "No": 39.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Pcts 9 & 11",
             "Yes": 133.0,
             "No": 49.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 10",
             "Yes": 129.0,
             "No": 36.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 1",
             "Yes": 32.0,
             "No": 19.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 2",
             "Yes": 17.0,
             "No": 1.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Pcts 3 & 4",
             "Yes": 160.0,
             "No": 68.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 5",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 107.0,
+            "No": 58.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 6",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 143.0,
+            "No": 43.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 7",
             "Yes": 111.0,
             "No": 44.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 8",
             "Yes": 112.0,
             "No": 45.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 9",
             "Yes": 178.0,
             "No": 50.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Pcts 1 & 2",
             "Yes": 59.0,
             "No": 2.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Pcts 3 & 10",
             "Yes": 240.0,
             "No": 72.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Pcts 4 & 7",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 256.0,
+            "No": 68.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Precinct 5",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 75.0,
+            "No": 14.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Pcts 6 & 9",
             "Yes": 173.0,
             "No": 42.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Precinct 8",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 172.0,
+            "No": 43.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Pcts 1 & 3",
             "Yes": 121.0,
             "No": 14.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Precinct 2",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 34.0,
+            "No": 3.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Pcts 4 & 8",
             "Yes": 210.0,
             "No": 48.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Precinct 5",
             "Yes": 119.0,
             "No": 27.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Precinct 6",
             "Yes": 125.0,
             "No": 44.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Wards 4 & 5, Pct 7",
             "Yes": 261.0,
             "No": 87.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Pcts 9 & 10",
             "Yes": 164.0,
             "No": 85.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 1",
             "Yes": 53.0,
             "No": 12.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 2",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 187.0,
+            "No": 50.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 3",
             "Yes": 99.0,
             "No": 10.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Pcts 4 & 5",
@@ -239,13 +239,13 @@
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 6",
             "Yes": 209.0,
             "No": 59.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 8",
             "Yes": 102.0,
             "No": 26.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 9",
@@ -255,15 +255,15 @@
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 10",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 153.0,
+            "No": 48.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Pcts 11 & 12",
             "Yes": 257.0,
             "No": 66.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           }
         ]
       }
@@ -274,44 +274,44 @@
         {
           "label": "Yes",
           "call": true,
-          "in_precinct_votes": 3080.0,
+          "in_precinct_votes": 4424.0,
           "absentee_votes": 0.0,
-          "total_votes": 3080.0,
-          "percent_votes": 76.09
+          "total_votes": 4424.0,
+          "percent_votes": 76.24
         },
         {
           "label": "No",
           "call": false,
-          "in_precinct_votes": 968.0,
+          "in_precinct_votes": 1379.0,
           "absentee_votes": 0.0,
-          "total_votes": 968.0,
-          "percent_votes": 23.91
+          "total_votes": 1379.0,
+          "percent_votes": 23.76
         }
       ],
       "report": {
         "meta": {
           "title": "Ann Arbor Prop B Ranked Choice Voting",
-          "time": "Tuesday, Nov 02, 2021 08:26:23 PM",
+          "time": "Tuesday, Nov 02, 2021 08:32:18 PM",
           "registered_voters": 110386.0,
-          "ballots_cast": 4065.0,
-          "voter_turnout": 3.68,
+          "ballots_cast": 5825.0,
+          "voter_turnout": 5.28,
           "total_precincts": 53.0,
-          "full_count_precincts": 24.0,
-          "full_count_precincts_percent": 45.28301886792453,
-          "partial_count_precincts": 0.0
+          "full_count_precincts": 0.0,
+          "full_count_precincts_percent": 0.0,
+          "partial_count_precincts": 34.0
         },
         "data": [
           {
             "Precinct": "City of Ann Arbor, Ward 1, Pcts 1 & 12",
             "Yes": 31.0,
             "No": 0.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Pcts 2 & 3",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 93.0,
+            "No": 16.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 4",
@@ -329,169 +329,169 @@
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 7",
             "Yes": 27.0,
             "No": 0.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 8",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 143.0,
+            "No": 47.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Pcts 9 & 11",
             "Yes": 127.0,
             "No": 58.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 10",
             "Yes": 117.0,
             "No": 49.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 1",
             "Yes": 38.0,
             "No": 12.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 2",
             "Yes": 18.0,
             "No": 0.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Pcts 3 & 4",
             "Yes": 157.0,
             "No": 76.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 5",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 108.0,
+            "No": 56.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 6",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 148.0,
+            "No": 38.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 7",
             "Yes": 113.0,
             "No": 44.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 8",
             "Yes": 110.0,
             "No": 47.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 9",
             "Yes": 173.0,
             "No": 56.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Pcts 1 & 2",
             "Yes": 56.0,
             "No": 5.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Pcts 3 & 10",
             "Yes": 251.0,
             "No": 65.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Pcts 4 & 7",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 242.0,
+            "No": 83.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Precinct 5",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 66.0,
+            "No": 21.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Pcts 6 & 9",
             "Yes": 167.0,
             "No": 51.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Precinct 8",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 164.0,
+            "No": 52.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Pcts 1 & 3",
             "Yes": 115.0,
             "No": 21.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Precinct 2",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 34.0,
+            "No": 3.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Pcts 4 & 8",
             "Yes": 202.0,
             "No": 57.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Precinct 5",
             "Yes": 116.0,
             "No": 30.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Precinct 6",
             "Yes": 115.0,
             "No": 50.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Wards 4 & 5, Pct 7",
             "Yes": 263.0,
             "No": 84.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Pcts 9 & 10",
             "Yes": 176.0,
             "No": 74.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 1",
             "Yes": 52.0,
             "No": 13.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 2",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 205.0,
+            "No": 33.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 3",
             "Yes": 86.0,
             "No": 24.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Pcts 4 & 5",
@@ -503,13 +503,13 @@
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 6",
             "Yes": 212.0,
             "No": 57.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 8",
             "Yes": 90.0,
             "No": 36.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 9",
@@ -519,15 +519,15 @@
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 10",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 141.0,
+            "No": 62.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Pcts 11 & 12",
             "Yes": 268.0,
             "No": 59.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           }
         ]
       }
@@ -538,44 +538,44 @@
         {
           "label": "Yes",
           "call": true,
-          "in_precinct_votes": 3122.0,
+          "in_precinct_votes": 4466.0,
           "absentee_votes": 0.0,
-          "total_votes": 3122.0,
-          "percent_votes": 78.6
+          "total_votes": 4466.0,
+          "percent_votes": 78.38
         },
         {
           "label": "No",
           "call": false,
-          "in_precinct_votes": 850.0,
+          "in_precinct_votes": 1232.0,
           "absentee_votes": 0.0,
-          "total_votes": 850.0,
-          "percent_votes": 21.4
+          "total_votes": 1232.0,
+          "percent_votes": 21.62
         }
       ],
       "report": {
         "meta": {
           "title": "Ann Arbor Prop C Emergency Procurement",
-          "time": "Tuesday, Nov 02, 2021 08:26:23 PM",
+          "time": "Tuesday, Nov 02, 2021 08:32:18 PM",
           "registered_voters": 110386.0,
-          "ballots_cast": 4065.0,
-          "voter_turnout": 3.68,
+          "ballots_cast": 5825.0,
+          "voter_turnout": 5.28,
           "total_precincts": 53.0,
-          "full_count_precincts": 24.0,
-          "full_count_precincts_percent": 45.28301886792453,
-          "partial_count_precincts": 0.0
+          "full_count_precincts": 0.0,
+          "full_count_precincts_percent": 0.0,
+          "partial_count_precincts": 34.0
         },
         "data": [
           {
             "Precinct": "City of Ann Arbor, Ward 1, Pcts 1 & 12",
             "Yes": 28.0,
             "No": 2.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Pcts 2 & 3",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 87.0,
+            "No": 18.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 4",
@@ -593,169 +593,169 @@
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 7",
             "Yes": 20.0,
             "No": 3.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 8",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 158.0,
+            "No": 29.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Pcts 9 & 11",
             "Yes": 124.0,
             "No": 56.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 10",
             "Yes": 116.0,
             "No": 46.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 1",
             "Yes": 39.0,
             "No": 11.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 2",
             "Yes": 17.0,
             "No": 1.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Pcts 3 & 4",
             "Yes": 160.0,
             "No": 68.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 5",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 118.0,
+            "No": 44.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 6",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 148.0,
+            "No": 36.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 7",
             "Yes": 112.0,
             "No": 42.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 8",
             "Yes": 118.0,
             "No": 38.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 9",
             "Yes": 192.0,
             "No": 32.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Pcts 1 & 2",
             "Yes": 57.0,
             "No": 3.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Pcts 3 & 10",
             "Yes": 245.0,
             "No": 59.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Pcts 4 & 7",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 244.0,
+            "No": 77.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Precinct 5",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 74.0,
+            "No": 15.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Pcts 6 & 9",
             "Yes": 158.0,
             "No": 54.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Precinct 8",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 159.0,
+            "No": 52.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Pcts 1 & 3",
             "Yes": 117.0,
             "No": 14.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Precinct 2",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 29.0,
+            "No": 7.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Pcts 4 & 8",
             "Yes": 189.0,
             "No": 63.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Precinct 5",
             "Yes": 121.0,
             "No": 20.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Precinct 6",
             "Yes": 126.0,
             "No": 40.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Wards 4 & 5, Pct 7",
             "Yes": 279.0,
             "No": 65.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Pcts 9 & 10",
             "Yes": 169.0,
             "No": 78.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 1",
             "Yes": 57.0,
             "No": 9.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 2",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 185.0,
+            "No": 50.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 3",
             "Yes": 91.0,
             "No": 15.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Pcts 4 & 5",
@@ -767,13 +767,13 @@
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 6",
             "Yes": 221.0,
             "No": 45.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 8",
             "Yes": 100.0,
             "No": 28.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 9",
@@ -783,15 +783,15 @@
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 10",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 142.0,
+            "No": 54.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Pcts 11 & 12",
             "Yes": 266.0,
             "No": 58.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           }
         ]
       }
@@ -802,44 +802,44 @@
         {
           "label": "Yes",
           "call": true,
-          "in_precinct_votes": 2712.0,
+          "in_precinct_votes": 3862.0,
           "absentee_votes": 0.0,
-          "total_votes": 2712.0,
-          "percent_votes": 68.3
+          "total_votes": 3862.0,
+          "percent_votes": 67.77
         },
         {
           "label": "No",
           "call": false,
-          "in_precinct_votes": 1259.0,
+          "in_precinct_votes": 1837.0,
           "absentee_votes": 0.0,
-          "total_votes": 1259.0,
-          "percent_votes": 31.7
+          "total_votes": 1837.0,
+          "percent_votes": 32.23
         }
       ],
       "report": {
         "meta": {
           "title": "Ann Arbor Prop D $25000 Limit",
-          "time": "Tuesday, Nov 02, 2021 08:26:23 PM",
+          "time": "Tuesday, Nov 02, 2021 08:32:18 PM",
           "registered_voters": 110386.0,
-          "ballots_cast": 4065.0,
-          "voter_turnout": 3.68,
+          "ballots_cast": 5825.0,
+          "voter_turnout": 5.28,
           "total_precincts": 53.0,
-          "full_count_precincts": 24.0,
-          "full_count_precincts_percent": 45.28301886792453,
-          "partial_count_precincts": 0.0
+          "full_count_precincts": 0.0,
+          "full_count_precincts_percent": 0.0,
+          "partial_count_precincts": 34.0
         },
         "data": [
           {
             "Precinct": "City of Ann Arbor, Ward 1, Pcts 1 & 12",
             "Yes": 22.0,
             "No": 7.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Pcts 2 & 3",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 61.0,
+            "No": 45.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 4",
@@ -857,169 +857,169 @@
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 7",
             "Yes": 11.0,
             "No": 13.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 8",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 144.0,
+            "No": 42.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Pcts 9 & 11",
             "Yes": 109.0,
             "No": 70.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 1, Precinct 10",
             "Yes": 100.0,
             "No": 64.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 1",
             "Yes": 30.0,
             "No": 21.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 2",
             "Yes": 12.0,
             "No": 6.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Pcts 3 & 4",
             "Yes": 157.0,
             "No": 69.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 5",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 102.0,
+            "No": 61.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 6",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 125.0,
+            "No": 58.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 7",
             "Yes": 101.0,
             "No": 51.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 8",
             "Yes": 102.0,
             "No": 53.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 2, Precinct 9",
             "Yes": 158.0,
             "No": 63.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Pcts 1 & 2",
             "Yes": 52.0,
             "No": 9.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Pcts 3 & 10",
             "Yes": 227.0,
             "No": 83.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Pcts 4 & 7",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 204.0,
+            "No": 112.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Precinct 5",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 60.0,
+            "No": 29.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Pcts 6 & 9",
             "Yes": 125.0,
             "No": 87.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 3, Precinct 8",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 143.0,
+            "No": 70.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Pcts 1 & 3",
             "Yes": 102.0,
             "No": 31.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Precinct 2",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 23.0,
+            "No": 13.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Pcts 4 & 8",
             "Yes": 167.0,
             "No": 85.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Precinct 5",
             "Yes": 106.0,
             "No": 39.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Precinct 6",
             "Yes": 109.0,
             "No": 55.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Wards 4 & 5, Pct 7",
             "Yes": 226.0,
             "No": 119.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 4, Pcts 9 & 10",
             "Yes": 151.0,
             "No": 94.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 1",
             "Yes": 45.0,
             "No": 19.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 2",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 160.0,
+            "No": 75.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 3",
             "Yes": 83.0,
             "No": 25.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Pcts 4 & 5",
@@ -1031,13 +1031,13 @@
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 6",
             "Yes": 203.0,
             "No": 63.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 8",
             "Yes": 78.0,
             "No": 48.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 9",
@@ -1047,15 +1047,15 @@
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Precinct 10",
-            "Yes": 0.0,
-            "No": 0.0,
-            "counted": "not-counted"
+            "Yes": 128.0,
+            "No": 73.0,
+            "counted": "partially-counted"
           },
           {
             "Precinct": "City of Ann Arbor, Ward 5, Pcts 11 & 12",
             "Yes": 236.0,
             "No": 85.0,
-            "counted": "fully-counted"
+            "counted": "partially-counted"
           }
         ]
       }

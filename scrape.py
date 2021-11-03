@@ -83,6 +83,9 @@ def get_data(baseurl: str, time: str, indices: list):
     for precinct in precincts:
         text = precinct.find("td").text.strip()
         pclass = precinct.find("td")["class"]
+        font = precinct.find("td").find("font")
+        if not font is None:
+            pclass = font["color"]
         if "red" in pclass:
             reported[text] = NOT_COUNTED
         elif "blue" in pclass:

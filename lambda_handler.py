@@ -1,8 +1,11 @@
-import requests
-from bs4 import BeautifulSoup
-from json import dump
+from json import dump, dumps
 from datetime import datetime
 from zoneinfo import ZoneInfo
+from os import environ
+
+import requests
+from bs4 import BeautifulSoup
+from boto3 import client
 
 
 def num(n: str):
@@ -141,14 +144,20 @@ def get_data(baseurl: str, time: str, indices: list):
     }
 
 
-def main():
+def lambda_handler(event, context):
     east = ZoneInfo("America/New_York")
     time = datetime.now(tz=east).strftime("%A, %b %d, %Y %I:%M:%S %p")
     url = "https://electionresults.ewashtenaw.org/electionreporting/nov2021"
     data = get_data(url, time, [13, 14, 15, 16])
-    with open("data.json", "w") as f:
-        dump(data, f, indent=2)
 
-
-if __name__ == "__main__":
-    main()
+    if environ["ENVIRONMENT"] == "local":
+        with open("data.json", "w") as f:
+            dump(data, f, indent=2)
+    elif environ["ENVIRONMENT"] == "production":
+        s3 = client("s3")
+        s3.put_object(
+            Bucket=environ["BUCKET"],
+            Key=environ["KEY"], Body=dumps(data),
+            ContentType="application/json",
+            ACL='public-read', CacheControl='max-age=300'
+        )

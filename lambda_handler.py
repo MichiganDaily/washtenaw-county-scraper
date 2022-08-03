@@ -23,7 +23,7 @@ def get_canvass_report(url: str, time: str):
 
     precincts = table.find_all("tr")
     precincts.pop()
-    headers = precincts.pop(0).text.split("\n")[2:-3]
+    headers = precincts.pop(0).text.split("\n")[2:-1]
 
     data = list()
 
@@ -34,8 +34,6 @@ def get_canvass_report(url: str, time: str):
         total_precincts += 2 if "&" in datum[0].text else 1
         item = {
             "Precinct": datum[0].text,
-            # "Yes": num(datum[1].text.strip()),
-            # "No": num(datum[2].text.strip())
         }
 
         j = 0

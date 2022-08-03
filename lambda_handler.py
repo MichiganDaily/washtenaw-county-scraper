@@ -23,7 +23,7 @@ def get_canvass_report(url: str, time: str):
 
     precincts = table.find_all("tr")
     precincts.pop()
-    precincts.pop(0)
+    headers = precincts.pop(0).text.split("\n")[2:-3]
 
     data = list()
 
@@ -32,11 +32,17 @@ def get_canvass_report(url: str, time: str):
     for precinct in precincts:
         datum = precinct.find_all("td")
         total_precincts += 2 if "&" in datum[0].text else 1
-        data.append({
+        item = {
             "Precinct": datum[0].text,
-            "Yes": num(datum[1].text.strip()),
-            "No": num(datum[2].text.strip())
-        })
+            # "Yes": num(datum[1].text.strip()),
+            # "No": num(datum[2].text.strip())
+        }
+
+        j = 0
+        for header in headers:
+            item[header] = num(datum[j + 1].text.strip())
+            j+= 1
+        data.append(item)
 
     return {
         "meta": {
@@ -107,52 +113,57 @@ def get_data(baseurl: str, time: str, indices: list):
       "report": None
     }
 
+    skip = False
+
     index = 0
     while index < len(summary):
         details = summary[index]
         name = details.find("td", attrs={"class": "headertr", "colspan": "3"})
         canvass = details.find(
             "td", attrs={"class": "headertr", "colspan": "2"})
-
         if name and canvass:
-            data.append({k: v for k, v in item.items()})
-            print(data[-1]["name"])
+            if len(item["name"]) > 0:
+                if len(data) == 0:
+                    data.append({k: v for k, v in item.items()})
+                elif (len(data) > 0 and item["name"] != data[-1]["name"]):
+                    data.append({k: v for k, v in item.items()})
             name = name.text
-            canvass = f"{baseurl}/{canvass.find('a')['href']}"
-            report = get_canvass_report(canvass, time)
 
-            item = {
-              "name": name,
-              "options": [],
-              "report": report
-            }
+            if name.startswith("Ann Arbor Mayor") or name.startswith("Ann Arbor Council"):
+                # print(data[-1]["name"], "not skipping")
+                skip = False
+                canvass = f"{baseurl}/{canvass.find('a')['href']}"
+                report = get_canvass_report(canvass, time)
 
-            full_count_precincts: float = 0.0
-            partial_count_precincts: float = 0.0
+                item = {
+                  "name": name,
+                  "options": [],
+                  "report": report
+                }
 
-            for i in range(len(report["data"])):
-                count = reported[report["data"][i]["Precinct"]]
-                report["data"][i]["counted"] = count
-            if count == FULLY_COUNTED:
-                full_count_precincts += 1
-            elif count == PARTIALLY_COUNTED:
-                partial_count_precincts += 1
+                full_count_precincts: float = 0.0
+                partial_count_precincts: float = 0.0
 
-            report["meta"]["full_count_precincts"] = full_count_precincts
-            report["meta"]["full_count_precincts_percent"] = full_count_precincts / \
-            report["meta"]["total_precincts"] * 100
-            report["meta"]["partial_count_precincts"] = partial_count_precincts
+                for i in range(len(report["data"])):
+                    count = reported[report["data"][i]["Precinct"]]
+                    report["data"][i]["counted"] = count
+                if count == FULLY_COUNTED:
+                    full_count_precincts += 1
+                elif count == PARTIALLY_COUNTED:
+                    partial_count_precincts += 1
 
-            data = []
-        else:
+                report["meta"]["full_count_precincts"] = full_count_precincts
+                report["meta"]["full_count_precincts_percent"] = full_count_precincts / \
+                report["meta"]["total_precincts"] * 100
+                report["meta"]["partial_count_precincts"] = partial_count_precincts
+            else:
+                skip = True
+        elif not skip:
             item["options"].append(get_summary_row(summary[index].contents))
-
         index+=1
-
     return {
         "meta": {
             "title": soup.find("font", attrs={"class", "h2"}).text,
-            # "time": soup.find("font", attrs={"class": "h4"}).text[21:]
             "time": time
         },
         "data": data

@@ -129,7 +129,7 @@ def get_data(baseurl: str, time: str, indices: list):
                     data.append({k: v for k, v in item.items()})
             name = name.text
 
-            if name.startswith("Ann Arbor Mayor") or name.startswith("Ann Arbor Council"):
+            if name.startswith("Ann Arbor Mayor") or name.startswith("Ann Arbor Council") or name == "AAATA Proposal":
                 # print(data[-1]["name"], "not skipping")
                 skip = False
                 canvass = f"{baseurl}/{canvass.find('a')['href']}"

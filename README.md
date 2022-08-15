@@ -1,5 +1,7 @@
 # washtenaw-elections-scraper
 
+> ⚠️ Do not delete `data.json` (for now). [City of Ann Arbor 2021 Special Election Results](https://www.michigandaily.com/news/ann-arbor/city-of-ann-arbor-2021-special-election-results/) still relies on it as a URL.
+
 This is a tool to retrieve election results data from Washtenaw County. The results can be found [here](https://www.washtenaw.org/314/Election-Results).
 
 Previously, this scraper was configured to run through GitHub Actions. It is now configured to run as an AWS Lambda function.

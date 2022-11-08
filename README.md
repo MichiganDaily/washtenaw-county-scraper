@@ -19,11 +19,13 @@ You'll need a Python version >= 3.9 for [`zoneinfo`](https://docs.python.org/3/l
 - Use an execution role with access to S3.
 - Add an EventBridge (CloudWatch Events) trigger with a schedule expression.
 - Add the following environment variables to your Lambda configuration:
+
    ```plaintext
    ENVIRONMENT=production
    BUCKET=subdomain.domain.com
    KEY=directory/filename
    ```
+
 - Upload `lambda_handler.py` to the code section.
 - You may need to change the timeout in general configurations.
 - You may need to add layers for external packages.

@@ -38,7 +38,10 @@ def get_canvass_report(url: str, time: str):
 
         j = 0
         for header in headers:
-            item[header] = num(datum[j + 1].text.strip())
+            h = header
+            if (header.find("(") != -1):
+                h = header[:header.find("(")]
+            item[h] = num(datum[j + 1].text.strip())
             j+= 1
         data.append(item)
 
@@ -72,7 +75,7 @@ def get_summary_row(row):
     }
 
 
-def get_data(baseurl: str, time: str):
+def get_data(baseurl: str, time: str, races):
     NOT_COUNTED = "not-counted"
     PARTIALLY_COUNTED = "partially-counted"
     FULLY_COUNTED = "fully-counted"
@@ -127,8 +130,7 @@ def get_data(baseurl: str, time: str):
                     data.append({k: v for k, v in item.items()})
             name = name.text
 
-            if name.startswith("Ann Arbor Mayor") or name.startswith("Ann Arbor Council") or name == "AAATA Proposal":
-                # print(data[-1]["name"], "not skipping")
+            if name in races:
                 skip = False
                 canvass = f"{baseurl}/{canvass.find('a')['href']}"
                 report = get_canvass_report(canvass, time)
@@ -172,7 +174,13 @@ def lambda_handler(event, context):
     east = ZoneInfo("America/New_York")
     time = datetime.now(tz=east).strftime("%A, %b %d, %Y %I:%M:%S %p")
     url = "https://electionresults.ewashtenaw.org/electionreporting/aug2022"
-    data = get_data(url, time)
+
+    races = [
+        "Ann Arbor Council W4 DEM",
+        "Ann Arbor Mayor DEM"
+    ]
+
+    data = get_data(url, time, races)
 
     if environ["ENVIRONMENT"] == "local":
         with open("data.json", "w") as f:

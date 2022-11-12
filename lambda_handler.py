@@ -173,11 +173,15 @@ def get_data(baseurl: str, time: str, races):
 def lambda_handler(event, context):
     east = ZoneInfo("America/New_York")
     time = datetime.now(tz=east).strftime("%A, %b %d, %Y %I:%M:%S %p")
-    url = "https://electionresults.ewashtenaw.org/electionreporting/aug2022"
+    url = "https://electionresults.ewashtenaw.org/electionreporting/nov2022"
 
     races = [
-        "Ann Arbor Council W4 DEM",
-        "Ann Arbor Mayor DEM"
+        "Governor and Lieutenant Governor",
+        "State Proposal 22-1",
+        "State Proposal 22-2",
+        "State Proposal 22-3",
+        "Ann Arbor Mayor",
+        "City of Ann Arbor Proposal 1"
     ]
 
     data = get_data(url, time, races)
